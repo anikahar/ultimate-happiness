@@ -1,8 +1,8 @@
 import processing.video.*;
 
 // Size is both the size of the screen and the size of the generated image's pixel population
-final int myDisplayWidth = 2880;
-final int myDisplayHeight = 1800;
+final int myDisplayWidth = 1600;
+final int myDisplayHeight = 1200;
 
 final int initialParentCount = 100;
 
@@ -19,7 +19,7 @@ float g_time, g_time2, g_time3;
 Capture camera;
 
 void setup() {  
-  size(1024, 768);  
+  fullScreen();
   colorMode(RGB, 1);
   mutationRate = 0.1;
  
